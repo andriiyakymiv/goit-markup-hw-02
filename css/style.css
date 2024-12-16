@@ -35,11 +35,11 @@ ul {
     letter-spacing: 0.03em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #2E2F42;
+    color: var(--color-iris-primary-brand);
 }
 
-.logo-web {
-    color: var(--color-iris-primary-brand);
+.logo-studio {
+    color: var(--color-dark-navyblue);
 }
 
 .menu-link {
@@ -178,7 +178,46 @@ ul {
     color: var(--color-dark-navyblue);
 }
 
+.portfolio-item {
+    background: #ffffff;
+}
 
+.portfolio-item {
+    border: 1px solid #e7e9fc;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-dark-navyblue);
+}
+
+.card-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-body);
+}
+
+        /* Footer */
+.footer-section {
+    background: var(--color-dark-navyblue);
+}
+
+.logo-footer {
+        color: #f4f4fd;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
 
 
 
