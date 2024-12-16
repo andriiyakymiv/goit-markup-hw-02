@@ -97,6 +97,7 @@ ul {
     letter-spacing: 0.04em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    cursor: pointer;
     color: var(--color-background-white);
 
     background: var(--color-iris-primary-brand);
@@ -121,7 +122,6 @@ ul {
 
 .feature-text {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-underline-position: from-font;
@@ -159,7 +159,6 @@ ul {
 }
 
 .ourteam-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -195,7 +194,6 @@ ul {
 }
 
 .card-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -212,20 +210,8 @@ ul {
 }
 
 .footer-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-
-
-
-
-
-
-
-
-
-
