@@ -31,7 +31,7 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -54,6 +54,10 @@ ul {
 
 .menu-link:hover, .menu-link:focus {
     color: var(--color-ocean-pressed-state);
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .contact-link {
@@ -101,7 +105,6 @@ ul {
     color: var(--color-background-white);
 
     background: var(--color-iris-primary-brand);
-    box-shadow: 0px 4px 4px 0px #00000026;
  }
 
  .hero-button:hover, .hero-button:focus {
@@ -142,12 +145,9 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--color-dark-navyblue);
+    text-transform: capitalize;
 }
 
-.ourteam-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #ffffff;
-}
 
 .ourteam-name {
     font-weight: 500;
@@ -171,10 +171,11 @@ ul {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--color-dark-navyblue);
+    text-transform: capitalize;
 }
 
 .portfolio-item {
