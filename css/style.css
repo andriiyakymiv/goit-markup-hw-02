@@ -92,8 +92,8 @@ ul {
  }
 
  .hero-button {
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
 
     font-size: 16px;
     font-weight: 500;
@@ -124,18 +124,22 @@ ul {
 }
 
 .feature-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        color: var(--color-contact-slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--color-contact-slate);
 }
 
 /* Our Team */
 
 .ourteam-section {
     background: #f4f4fd;
+}
+
+.ourteam-item {
+    background-color: #FFFFFF;
 }
 
 .ourteam-title {
@@ -182,9 +186,9 @@ ul {
     background: #ffffff;
 }
 
-.portfolio-item {
+/* .portfolio-item {
     border: 1px solid #e7e9fc;
-}
+} */
 
 .card-name {
     font-weight: 500;
